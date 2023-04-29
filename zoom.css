@@ -1,0 +1,437 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css");
+*{
+    padding:0;
+    margin:0;
+}
+header{
+    display: flex;
+justify-content: flex-end;
+background-color: black;
+gap:5px;
+align-items: center;
+padding: 5px;
+}
+.comon{
+    text-transform: capitalize;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    width: 5%;
+    height: 10px;
+}
+   
+hr{
+    width: 0.001%;
+    color: grey;
+    background-color: gray;
+    height: 16px;
+}
+.demo{
+    width: 8%;
+}
+.ip{
+    width: 7%;
+}
+.search{
+    display: flex;
+    gap: 5px;
+    width:6%;
+}
+.bi{
+    font-size: 20px;
+    font-weight: 900;
+}
+nav{
+    margin-left:5%;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    width: 90%;
+    height: 70px;
+}
+.brand{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+justify-content: space-between;
+    width:50%;
+    height: 90%;
+}
+.zoom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:50%;
+    width: 20%;
+
+}
+.zoom img{
+    height: 100%;
+    width: 100%;
+}
+.products{
+    text-transform: capitalize;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 15%;
+}
+.solutions{
+    text-transform: capitalize;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 15%;
+}
+.resource{
+    text-transform: capitalize;
+    font-size: 20px;
+    display: flex;
+    height: 100%;
+    width: 15%;
+    justify-content: center;
+    align-items: center;
+}
+.price{
+    text-transform: capitalize;
+    font-size: 20px;
+    display: flex;
+    height: 100%;
+    width: 15%;
+    justify-content:center;
+    align-items: center;
+}
+.brand p{
+    color: gray;
+}
+.buttons{
+    display: flex;
+    width: 27%;
+    height: 100%;
+}
+.bt1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+}
+.demo{
+    font-size: 14px;
+}
+.subai{
+    margin-right: 10px;
+}
+.bt2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 100%;  
+}
+.bt1 button{
+    color:#0B5CFF;
+    border: 1px solid #0B5CFF;
+    text-transform: capitalize;
+    font-weight: 600;
+    font-size: 17PX;
+    border-radius:30px;
+    width: 95%;
+    height: 65%;
+}
+.bt2 button{
+    color: white;
+    background-color:#0B5CFF;
+    border: 1px solid #0B5CFF;
+    text-transform: capitalize;
+    font-weight: 600;
+    font-size: 17PX;
+    border-radius:30px;
+    width: 95%;
+    height: 65%;
+}
+.burger{
+    display: none;
+}
+.front{
+    display: flex;
+    height: 560px;
+    width: 100%;
+}
+.left{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+}
+.right{
+    width: 50%;
+    height:100%
+}
+.ai{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    height: 5%;
+    width: 80%;
+    border-radius: 25px;
+    border: 1px solid #90E0E0;
+}
+.ai p{
+    width: max-content ;
+}
+.bell{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 10%;
+    clip-path: circle();
+    background-color:#90E0E0;
+    height: 80%;
+    margin-top: 3px;
+}
+.bell i{
+    font-size:15px;
+}
+.subai{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.vir{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #0B5CFF;
+    font-weight: 600;
+}
+.vir .bi{
+    font-size: 15px;
+    font-weight: 900;
+}
+.heading{
+    margin-top: 20px;
+height: 30%;
+width: 70%;
+
+}
+span{
+    color: #0B5CFF;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.heading h2{
+    font-weight:500;
+    height: 100%;
+    font-size: 75px;
+}
+.description{
+    margin-top: 20px;
+    width: 70%;
+}
+.description p{
+    font-size: 20px;
+}
+.desbutton{
+    margin-top: 20px;
+    height: 8%;
+    width: 70%;
+}
+.desbutton button{
+    height: 100%;
+    width: 30%;
+    border: none;
+}
+.desbutton :nth-child(1){
+    background-color: #0B5CFF;
+    border-radius: 30px;
+    color: white;
+    font-size: 16px;
+}
+.desbutton :nth-child(2){
+    color:#0B5CFF;
+    border-radius: 30px;
+    font-size: 20px;
+}
+.right{
+    display: flex;
+position: relative;
+}
+.pic1{
+    position: absolute;
+    height: 100%;
+    width: 50%;
+  
+
+}
+.pic1 img{
+    position: absolute;
+   border-radius: 20px;
+   bottom: 15px;
+   left: -20px;
+}
+.pic2{
+    position: absolute;
+    right: 0;
+    height: 100%;
+    width: 50%;
+    
+}
+.pic2 img{
+    position: absolute;
+    border-radius: 20px;
+    right:0;
+ }
+
+@media only screen and (max-width:600px){
+    header{
+        width: 100%;
+        height: 40px;
+        background-color:black;
+    }
+    .comon{
+        display: none;
+    }
+    header hr{
+        display: none;
+    }
+    nav{
+        width: 100%;
+    }
+    .zoom{
+    height: 100%;
+    width: 45%;
+    }
+    .products{
+        display: none;
+    }
+    .solutions{
+        display: none;
+    }
+    .resource{
+        display: none;
+    }
+    .price{
+        display: none;
+    }
+.burger{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 40%;
+}
+.buttons{
+    display: none;
+}
+.mjoin{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:25%;
+    height: 60%;
+    color: #0B5CFF;
+    text-transform: capitalize;
+    font-weight: 600;
+    font-size: 18px;
+}
+.mhost{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:25%;
+    height: 60%;
+    color: #0B5CFF;
+    text-transform: capitalize;
+    font-weight: 600;
+    font-size: 18px;
+}
+.mburger{
+    display: flex;
+    align-items: center;
+    width: 25%;
+    height: 50%;
+}
+.front{
+    display: flex;
+    flex-direction: column;
+    height: 650px;
+    width: 100%;
+}
+.left{
+    width: 100%;
+}
+.ai{
+    height: 50px;
+    width: 90%;
+}
+.ai p{
+    width: 100%;
+    font-size: 15px;
+}
+.bell{
+    margin-top: 14px;
+    height: 22px;
+}
+.subai{
+    width: 30%;
+}
+.ai vir{
+    width: 100%;
+}
+.heading{
+    width: 90%;
+}
+.heading h2{
+    font-size: 35px;
+    width: 50%;
+}
+.description{
+    font-size: 12px;
+    width: 90%;
+    margin-top:2px;
+}
+.desbutton{
+    display: flex;
+    justify-content:flex-start;
+    gap:15px;
+    height: 45px;
+    margin-top: 20px;
+    width: 90%;
+}
+.desbutton button{
+    height: 90%;
+    width:32%;
+}
+.right{
+    width: 100%;
+    height:400px;
+}
+.pic2{
+position:absolute;
+bottom:0;
+}
+.pic2 img {
+    left: 0;
+    width: 60%;
+    height: 70%;
+}
+.pic1{
+    position: absolute;
+
+}
+.pic1 img {
+    margin-left: 40px;
+    right: 0;
+    width: 90%;
+    height: 80%;
+}
+}
